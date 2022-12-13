@@ -1,0 +1,54 @@
+{
+    "caption": "create_msg_instantiate_contract",
+    "doc": "Create msg: cosmwasm.wasm.v1.MsgInstantiateContract",
+    "fields": {
+        "AAV": {
+            "caption": "admin",
+            "doc": "Admin of the contract",
+            "editor": "DynamicValue",
+            "name": "admin",
+            "rank": 0,
+            "value": "text"
+        },
+        "AAW": {
+            "caption": "code_id",
+            "doc": "Code ID of the contract",
+            "editor": "DynamicValue",
+            "name": "code_id",
+            "rank": 1,
+            "value": "text"
+        },
+        "AAX": {
+            "caption": "label",
+            "doc": "Instance Label",
+            "editor": "DynamicValue",
+            "name": "label",
+            "rank": 2,
+            "value": "text"
+        },
+        "AAY": {
+            "caption": "init_msg_str",
+            "doc": "Init msg string (Use JSON.stringify())",
+            "editor": "DynamicValue",
+            "name": "init_msg_str",
+            "rank": 3,
+            "value": "text"
+        },
+        "AAZ": {
+            "caption": "amount",
+            "doc": "Fund amount",
+            "editor": "DynamicValue",
+            "name": "amount",
+            "rank": 4,
+            "value": "text"
+        },
+        "AAa": {
+            "caption": "denom",
+            "doc": "Fund denom",
+            "editor": "DynamicValue",
+            "name": "denom",
+            "rank": 5,
+            "value": "text"
+        }
+    }
+}

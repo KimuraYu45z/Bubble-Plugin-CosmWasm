@@ -1,0 +1,14 @@
+{
+    "caption": "create_msg_ibc_close_channel",
+    "doc": "Create msg: cosmwasm.wasm.v1.MsgIBCCloseChannel",
+    "fields": {
+        "ABq": {
+            "caption": "channel",
+            "doc": "Channel string",
+            "editor": "DynamicValue",
+            "name": "channel",
+            "rank": 0,
+            "value": "text"
+        }
+    }
+}

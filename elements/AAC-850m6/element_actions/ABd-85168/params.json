@@ -1,0 +1,14 @@
+{
+    "caption": "create_msg_clear_admin",
+    "doc": "Create msg: cosmwasm.wasm.v1.MsgClearAdmin",
+    "fields": {
+        "ABe": {
+            "caption": "contract",
+            "doc": "List Contract by Code response (string)",
+            "editor": "DynamicValue",
+            "name": "contract",
+            "rank": 0,
+            "value": "text"
+        }
+    }
+}

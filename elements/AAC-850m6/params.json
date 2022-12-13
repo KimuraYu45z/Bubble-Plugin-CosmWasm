@@ -1,0 +1,168 @@
+{
+    "add_is_visible": true,
+    "category": "visual elements",
+    "default_dim": {
+        "height": 32,
+        "width": 32
+    },
+    "display": "CosmWasm",
+    "events": {
+        "AAS": {
+            "caption": "msg_instantiate_contract_created",
+            "name": "msg_instantiate_contract_created"
+        },
+        "ABM": {
+            "caption": "msg_migrate_contract_created",
+            "name": "msg_migrate_contract_created"
+        },
+        "ABX": {
+            "caption": "msg_execute_contract_created",
+            "name": "msg_execute_contract_created"
+        },
+        "ABc": {
+            "caption": "msg_update_admin_created",
+            "name": "msg_update_admin_created"
+        },
+        "ABh": {
+            "caption": "msg_clear_admin_created",
+            "name": "msg_clear_admin_created"
+        },
+        "ABr": {
+            "caption": "msg_ibc_send_created",
+            "name": "msg_ibc_send_created"
+        },
+        "ABs": {
+            "caption": "msg_ibc_close_channel_created",
+            "name": "msg_ibc_close_channel_created"
+        }
+    },
+    "fields": {
+        "AAT": {
+            "caption": "address",
+            "doc": "Set accAddress by Keplr, etc.",
+            "editor": "DynamicValue",
+            "name": "address",
+            "rank": 0,
+            "value": "text"
+        }
+    },
+    "icon": "ion-android-checkbox-blank",
+    "property_applications": {
+        "MinWidth": true,
+        "resizable": true
+    },
+    "states": {
+        "AAL": {
+            "caption": "msg_instantiate_contract_type_url",
+            "initialization_code": {
+                "fn": "function(properties, context) {\n\n\n\n}"
+            },
+            "name": "msg_instantiate_contract_type_url",
+            "value": "text"
+        },
+        "AAM": {
+            "caption": "msg_instantiate_contract_value",
+            "initialization_code": {
+                "fn": "function(properties, context) {\n\n\n\n}"
+            },
+            "name": "msg_instantiate_contract_value",
+            "value": "text"
+        },
+        "ABN": {
+            "caption": "msg_migrate_contract_type_url",
+            "initialization_code": {
+                "fn": "function(properties, context) {\n\n\n\n}"
+            },
+            "name": "msg_migrate_contract_type_url",
+            "value": "text"
+        },
+        "ABO": {
+            "caption": "msg_migrate_contract_value",
+            "initialization_code": {
+                "fn": "function(properties, context) {\n\n\n\n}"
+            },
+            "name": "msg_migrate_contract_value",
+            "value": "text"
+        },
+        "ABY": {
+            "caption": "msg_execute_contract_type_url",
+            "initialization_code": {
+                "fn": "function(properties, context) {\n\n\n\n}"
+            },
+            "name": "msg_execute_contract_type_url",
+            "value": "text"
+        },
+        "ABZ": {
+            "caption": "msg_execute_contract_value",
+            "initialization_code": {
+                "fn": "function(properties, context) {\n\n\n\n}"
+            },
+            "name": "msg_execute_contract_value",
+            "value": "text"
+        },
+        "ABa": {
+            "caption": "msg_update_admin_type_url",
+            "initialization_code": {
+                "fn": "function(properties, context) {\n\n\n\n}"
+            },
+            "name": "msg_update_admin_type_url",
+            "value": "text"
+        },
+        "ABb": {
+            "caption": "msg_update_admin_value",
+            "initialization_code": {
+                "fn": "function(properties, context) {\n\n\n\n}"
+            },
+            "name": "msg_update_admin_value",
+            "value": "text"
+        },
+        "ABf": {
+            "caption": "msg_clear_admin_type_url",
+            "initialization_code": {
+                "fn": "function(properties, context) {\n\n\n\n}"
+            },
+            "name": "msg_clear_admin_type_url",
+            "value": "text"
+        },
+        "ABg": {
+            "caption": "msg_clear_admin_value",
+            "initialization_code": {
+                "fn": "function(properties, context) {\n\n\n\n}"
+            },
+            "name": "msg_clear_admin_value",
+            "value": "text"
+        },
+        "ABt": {
+            "caption": "msg_ibc_send_type_url",
+            "initialization_code": {
+                "fn": "function(properties, context) {\n\n\n\n}"
+            },
+            "name": "msg_ibc_send_type_url",
+            "value": "text"
+        },
+        "ABu": {
+            "caption": "msg_ibc_send_value",
+            "initialization_code": {
+                "fn": "function(properties, context) {\n\n\n\n}"
+            },
+            "name": "msg_ibc_send_value",
+            "value": "text"
+        },
+        "ABv": {
+            "caption": "msg_ibc_close_channel_type_url",
+            "initialization_code": {
+                "fn": "function(properties, context) {\n\n\n\n}"
+            },
+            "name": "msg_ibc_close_channel_type_url",
+            "value": "text"
+        },
+        "ABw": {
+            "caption": "msg_ibc_close_channel_value",
+            "initialization_code": {
+                "fn": "function(properties, context) {\n\n\n\n}"
+            },
+            "name": "msg_ibc_close_channel_value",
+            "value": "text"
+        }
+    }
+}

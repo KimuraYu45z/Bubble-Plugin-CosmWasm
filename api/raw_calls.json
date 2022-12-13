@@ -1,0 +1,212 @@
+{
+    "calls": {
+        "AAb": {
+            "initialized": true,
+            "method": "get",
+            "name": "List Code",
+            "publish_as": "data",
+            "rank": 0,
+            "ret_value": "api.1666945755215x326195337969270800.plugin_api.AAb",
+            "should_reinitialize": true,
+            "types": "{\"plugin_api.AAb\":{\"caption\":\"List Code\",\"fields\":{\"_p_code_infos\":{\"ret_value\":\"list.api.1666945755215x326195337969270800.plugin_api.AAb.code_infos\",\"caption\":\"code_infos\",\"path\":[\"code_infos\"]},\"_p_pagination.next_key\":{\"ret_value\":\"text\",\"caption\":\"pagination next_key\",\"sample_value\":\"string\",\"path\":[\"pagination\",\"next_key\"]},\"_p_pagination.total\":{\"ret_value\":\"text\",\"caption\":\"pagination total\",\"sample_value\":\"string\",\"path\":[\"pagination\",\"total\"]}}},\"plugin_api.AAb.code_infos\":{\"caption\":\"List Code code_info\",\"fields\":{\"_p_code_id\":{\"ret_value\":\"text\",\"caption\":\"code_id\",\"sample_value\":\"string\",\"path\":[\"code_id\"]},\"_p_creator\":{\"ret_value\":\"text\",\"caption\":\"creator\",\"sample_value\":\"string\",\"path\":[\"creator\"]},\"_p_data_hash\":{\"ret_value\":\"text\",\"caption\":\"data_hash\",\"sample_value\":\"string\",\"path\":[\"data_hash\"]},\"_p_instantiate_permission.permission\":{\"ret_value\":\"text\",\"caption\":\"instantiate_permission permission\",\"sample_value\":\"ACCESS_TYPE_UNSPECIFIED\",\"path\":[\"instantiate_permission\",\"permission\"]},\"_p_instantiate_permission.address\":{\"ret_value\":\"text\",\"caption\":\"instantiate_permission address\",\"sample_value\":\"string\",\"path\":[\"instantiate_permission\",\"address\"]}}}}",
+            "url": "[Base URL]/cosmwasm/wasm/v1/code",
+            "url_params": {
+                "AAc": {
+                    "key": "Base URL",
+                    "private": true,
+                    "value": "https://cosmwasm.test.cauchye.net:1318"
+                }
+            }
+        },
+        "AAe": {
+            "initialized": true,
+            "method": "get",
+            "name": "Get Code",
+            "publish_as": "data",
+            "rank": 1,
+            "ret_value": "api.1666945755215x326195337969270800.plugin_api.AAe",
+            "should_reinitialize": true,
+            "types": "{\"plugin_api.AAe\":{\"caption\":\"Get Code\",\"fields\":{\"_p_code_info.code_id\":{\"ret_value\":\"text\",\"caption\":\"code_info code_id\",\"sample_value\":\"string\",\"path\":[\"code_info\",\"code_id\"]},\"_p_code_info.creator\":{\"ret_value\":\"text\",\"caption\":\"code_info creator\",\"sample_value\":\"string\",\"path\":[\"code_info\",\"creator\"]},\"_p_code_info.data_hash\":{\"ret_value\":\"text\",\"caption\":\"code_info data_hash\",\"sample_value\":\"string\",\"path\":[\"code_info\",\"data_hash\"]},\"_p_code_info.instantiate_permission.permission\":{\"ret_value\":\"text\",\"caption\":\"code_info instantiate_permission permission\",\"sample_value\":\"ACCESS_TYPE_UNSPECIFIED\",\"path\":[\"code_info\",\"instantiate_permission\",\"permission\"]},\"_p_code_info.instantiate_permission.address\":{\"ret_value\":\"text\",\"caption\":\"code_info instantiate_permission address\",\"sample_value\":\"string\",\"path\":[\"code_info\",\"instantiate_permission\",\"address\"]},\"_p_data\":{\"ret_value\":\"text\",\"caption\":\"data\",\"sample_value\":\"string\",\"path\":[\"data\"]}}}}",
+            "url": "[Base URL]/cosmwasm/wasm/v1/code/[code_id]",
+            "url_params": {
+                "AAf": {
+                    "key": "Base URL",
+                    "private": true,
+                    "value": "https://cosmwasm.test.cauchye.net:1318"
+                },
+                "AAg": {
+                    "key": "code_id",
+                    "private": true,
+                    "value": ""
+                }
+            }
+        },
+        "AAh": {
+            "initialized": true,
+            "method": "get",
+            "name": "List Contract by Code",
+            "publish_as": "data",
+            "rank": 2,
+            "ret_value": "api.1666945755215x326195337969270800.plugin_api.AAh",
+            "should_reinitialize": true,
+            "types": "{\"plugin_api.AAh\":{\"caption\":\"List Contract By Code\",\"fields\":{\"_p_contracts\":{\"ret_value\":\"list.text\",\"caption\":\"contracts\",\"sample_value\":\"string\",\"path\":[\"contracts\"]},\"_p_pagination.next_key\":{\"ret_value\":\"text\",\"caption\":\"pagination next_key\",\"sample_value\":\"string\",\"path\":[\"pagination\",\"next_key\"]},\"_p_pagination.total\":{\"ret_value\":\"text\",\"caption\":\"pagination total\",\"sample_value\":\"string\",\"path\":[\"pagination\",\"total\"]}}}}",
+            "url": "[Base URL]/cosmwasm/wasm/v1/code/[code_id]/contracts",
+            "url_params": {
+                "AAi": {
+                    "key": "Base URL",
+                    "private": true,
+                    "value": "https://cosmwasm.test.cauchye.net:1318"
+                },
+                "AAj": {
+                    "key": "code_id",
+                    "private": true,
+                    "value": ""
+                }
+            }
+        },
+        "AAm": {
+            "initialized": true,
+            "method": "get",
+            "name": "Pinned Codes",
+            "publish_as": "data",
+            "rank": 3,
+            "ret_value": "api.1666945755215x326195337969270800.plugin_api.AAm",
+            "should_reinitialize": true,
+            "types": "{\"plugin_api.AAm\":{\"caption\":\"Pinned Code\",\"fields\":{\"_p_code_ids\":{\"ret_value\":\"list.text\",\"caption\":\"code_ids\",\"sample_value\":\"string\",\"path\":[\"code_ids\"]},\"_p_pagination.next_key\":{\"ret_value\":\"text\",\"caption\":\"pagination next_key\",\"sample_value\":\"string\",\"path\":[\"pagination\",\"next_key\"]},\"_p_pagination.total\":{\"ret_value\":\"text\",\"caption\":\"pagination total\",\"sample_value\":\"string\",\"path\":[\"pagination\",\"total\"]}}}}",
+            "url": "[Base URL]/cosmwasm/wasm/v1/codes/pinned",
+            "url_params": {
+                "AAn": {
+                    "key": "Base URL",
+                    "private": true,
+                    "value": "https://cosmwasm.test.cauchye.net:1318"
+                }
+            }
+        },
+        "AAp": {
+            "initialized": true,
+            "method": "get",
+            "name": "Contract Info",
+            "publish_as": "data",
+            "rank": 4,
+            "ret_value": "api.1666945755215x326195337969270800.plugin_api.AAp",
+            "should_reinitialize": true,
+            "types": "{\"plugin_api.AAp\":{\"caption\":\"Contract Info by Addres\",\"fields\":{\"_p_address\":{\"ret_value\":\"text\",\"caption\":\"address\",\"sample_value\":\"string\",\"path\":[\"address\"]},\"_p_contract_info.code_id\":{\"ret_value\":\"text\",\"caption\":\"contract_info code_id\",\"sample_value\":\"string\",\"path\":[\"contract_info\",\"code_id\"]},\"_p_contract_info.creator\":{\"ret_value\":\"text\",\"caption\":\"contract_info creator\",\"sample_value\":\"string\",\"path\":[\"contract_info\",\"creator\"]},\"_p_contract_info.admin\":{\"ret_value\":\"text\",\"caption\":\"contract_info admin\",\"sample_value\":\"string\",\"path\":[\"contract_info\",\"admin\"]},\"_p_contract_info.label\":{\"ret_value\":\"text\",\"caption\":\"contract_info label\",\"sample_value\":\"string\",\"path\":[\"contract_info\",\"label\"]},\"_p_contract_info.created.block_height\":{\"ret_value\":\"text\",\"caption\":\"contract_info created block_height\",\"sample_value\":\"string\",\"path\":[\"contract_info\",\"created\",\"block_height\"]},\"_p_contract_info.created.tx_index\":{\"ret_value\":\"text\",\"caption\":\"contract_info created tx_index\",\"sample_value\":\"string\",\"path\":[\"contract_info\",\"created\",\"tx_index\"]},\"_p_contract_info.ibc_port_id\":{\"ret_value\":\"text\",\"caption\":\"contract_info ibc_port_id\",\"sample_value\":\"string\",\"path\":[\"contract_info\",\"ibc_port_id\"]},\"_p_contract_info.extension.type_url\":{\"ret_value\":\"text\",\"caption\":\"contract_info extension type_url\",\"sample_value\":\"string\",\"path\":[\"contract_info\",\"extension\",\"type_url\"]},\"_p_contract_info.extension.value\":{\"ret_value\":\"text\",\"caption\":\"contract_info extension value\",\"sample_value\":\"string\",\"path\":[\"contract_info\",\"extension\",\"value\"]}}}}",
+            "url": "[Base URL]/cosmwasm/wasm/v1/contract/[address]",
+            "url_params": {
+                "AAq": {
+                    "key": "Base URL",
+                    "private": true,
+                    "value": "https://cosmwasm.test.cauchye.net:1318"
+                },
+                "AAs": {
+                    "key": "address",
+                    "private": true,
+                    "value": ""
+                }
+            }
+        },
+        "AAt": {
+            "initialized": true,
+            "method": "get",
+            "name": "Contract History",
+            "publish_as": "data",
+            "rank": 5,
+            "ret_value": "api.1666945755215x326195337969270800.plugin_api.AAt",
+            "should_reinitialize": true,
+            "types": "{\"plugin_api.AAt\":{\"caption\":\"Contract History\",\"fields\":{\"_p_entries\":{\"ret_value\":\"list.api.1666945755215x326195337969270800.plugin_api.AAt.entries\",\"caption\":\"entries\",\"path\":[\"entries\"]},\"_p_pagination.next_key\":{\"ret_value\":\"text\",\"caption\":\"pagination next_key\",\"sample_value\":\"string\",\"path\":[\"pagination\",\"next_key\"]},\"_p_pagination.total\":{\"ret_value\":\"text\",\"caption\":\"pagination total\",\"sample_value\":\"string\",\"path\":[\"pagination\",\"total\"]}}},\"plugin_api.AAt.entries\":{\"caption\":\"Contract History entrie\",\"fields\":{\"_p_operation\":{\"ret_value\":\"text\",\"caption\":\"operation\",\"sample_value\":\"CONTRACT_CODE_HISTORY_OPERATION_TYPE_UNSPECIFIED\",\"path\":[\"operation\"]},\"_p_code_id\":{\"ret_value\":\"text\",\"caption\":\"code_id\",\"sample_value\":\"string\",\"path\":[\"code_id\"]},\"_p_updated.block_height\":{\"ret_value\":\"text\",\"caption\":\"updated block_height\",\"sample_value\":\"string\",\"path\":[\"updated\",\"block_height\"]},\"_p_updated.tx_index\":{\"ret_value\":\"text\",\"caption\":\"updated tx_index\",\"sample_value\":\"string\",\"path\":[\"updated\",\"tx_index\"]},\"_p_msg\":{\"ret_value\":\"text\",\"caption\":\"msg\",\"sample_value\":\"string\",\"path\":[\"msg\"]}}}}",
+            "url": "[Base URL]/cosmwasm/wasm/v1/contract/[address]/history",
+            "url_params": {
+                "AAu": {
+                    "key": "Base URL",
+                    "private": true,
+                    "value": "https://cosmwasm.test.cauchye.net:1318"
+                },
+                "AAv": {
+                    "key": "address",
+                    "private": true,
+                    "value": ""
+                }
+            }
+        },
+        "AAw": {
+            "initialized": true,
+            "method": "get",
+            "name": "Raw Contract State",
+            "publish_as": "data",
+            "rank": 6,
+            "ret_value": "api.1666945755215x326195337969270800.plugin_api.AAw",
+            "should_reinitialize": true,
+            "types": "{\"plugin_api.AAw\":{\"caption\":\"Raw Contract State\",\"fields\":{\"_p_data\":{\"ret_value\":\"text\",\"caption\":\"data\",\"sample_value\":\"string\",\"path\":[\"data\"]}}}}",
+            "url": "[Base URL]/cosmwasm/wasm/v1/contract/[address]/raw/[query_data]",
+            "url_params": {
+                "AAx": {
+                    "key": "Base URL",
+                    "private": true,
+                    "value": "https://cosmwasm.test.cauchye.net:1318"
+                },
+                "AAy": {
+                    "key": "address",
+                    "private": true,
+                    "value": ""
+                },
+                "AAz": {
+                    "key": "query_data",
+                    "private": true,
+                    "value": ""
+                }
+            }
+        },
+        "ABA": {
+            "initialized": true,
+            "method": "get",
+            "name": "Smart Contract State",
+            "publish_as": "data",
+            "rank": 7,
+            "ret_value": "api.1666945755215x326195337969270800.plugin_api.ABA",
+            "should_reinitialize": true,
+            "types": "{\"plugin_api.ABA\":{\"caption\":\"Smart Contract State\",\"fields\":{\"_p_data\":{\"ret_value\":\"text\",\"caption\":\"data\",\"sample_value\":\"string\",\"path\":[\"data\"]}}}}",
+            "url": "[Base URL]/cosmwasm/wasm/v1/contract/[address]/smart/[query_data]",
+            "url_params": {
+                "ABB": {
+                    "key": "Base URL",
+                    "private": true,
+                    "value": "https://cosmwasm.test.cauchye.net:1318"
+                },
+                "ABC": {
+                    "key": "address",
+                    "private": true,
+                    "value": ""
+                },
+                "ABD": {
+                    "key": "query_data",
+                    "private": true,
+                    "value": ""
+                }
+            }
+        },
+        "ABE": {
+            "initialized": true,
+            "method": "get",
+            "name": "All Contract State",
+            "publish_as": "data",
+            "rank": 8,
+            "ret_value": "api.1666945755215x326195337969270800.plugin_api.ABE",
+            "should_reinitialize": true,
+            "types": "{\"plugin_api.ABE\":{\"caption\":\"All Contract State\",\"fields\":{\"_p_models\":{\"ret_value\":\"list.api.1666945755215x326195337969270800.plugin_api.ABE.models\",\"caption\":\"models\",\"path\":[\"models\"]},\"_p_pagination.next_key\":{\"ret_value\":\"text\",\"caption\":\"pagination next_key\",\"sample_value\":\"string\",\"path\":[\"pagination\",\"next_key\"]},\"_p_pagination.total\":{\"ret_value\":\"text\",\"caption\":\"pagination total\",\"sample_value\":\"string\",\"path\":[\"pagination\",\"total\"]}}},\"plugin_api.ABE.models\":{\"caption\":\"All Contract State model\",\"fields\":{\"_p_key\":{\"ret_value\":\"text\",\"caption\":\"key\",\"sample_value\":\"string\",\"path\":[\"key\"]},\"_p_value\":{\"ret_value\":\"text\",\"caption\":\"value\",\"sample_value\":\"string\",\"path\":[\"value\"]}}}}",
+            "url": "[Base URL]/cosmwasm/wasm/v1/contract/[address]/state",
+            "url_params": {
+                "ABF": {
+                    "key": "Base URL",
+                    "private": true,
+                    "value": "https://cosmwasm.test.cauchye.net:1318"
+                },
+                "ABG": {
+                    "key": "address",
+                    "private": true,
+                    "value": ""
+                }
+            }
+        }
+    },
+    "human": "CosmWasm gRPC"
+}

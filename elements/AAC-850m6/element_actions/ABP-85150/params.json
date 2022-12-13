@@ -1,0 +1,38 @@
+{
+    "caption": "create_msg_execute_contract",
+    "doc": "Create msg: cosmwasm.wasm.v1.MsgExecuteContract",
+    "fields": {
+        "ABQ": {
+            "caption": "contract",
+            "doc": "List Contract by Code response (string)",
+            "editor": "DynamicValue",
+            "name": "contract",
+            "rank": 0,
+            "value": "text"
+        },
+        "ABR": {
+            "caption": "execute_msg_str",
+            "doc": "Execute msg string (Use JSON.stringify())",
+            "editor": "DynamicValue",
+            "name": "execute_msg_str",
+            "rank": 1,
+            "value": "text"
+        },
+        "ABS": {
+            "caption": "amount",
+            "doc": "Fund amount",
+            "editor": "DynamicValue",
+            "name": "amount",
+            "rank": 2,
+            "value": "text"
+        },
+        "ABT": {
+            "caption": "denom",
+            "doc": "Fund denom",
+            "editor": "DynamicValue",
+            "name": "denom",
+            "rank": 3,
+            "value": "text"
+        }
+    }
+}

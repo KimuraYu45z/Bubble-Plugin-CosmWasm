@@ -1,0 +1,9 @@
+{
+    "categories": {
+        "0": "technical"
+    },
+    "description": "A plugin for sending transactions of CosmWasm, by using Keplr plugin & Cosmos SDK Tx Basis plugin.",
+    "image": "//s3.amazonaws.com/appforest_uf/f1666945829516x306854919241679400/HxWkIDqO_400x400.png",
+    "license": "open_source",
+    "name": "CosmWasm"
+}

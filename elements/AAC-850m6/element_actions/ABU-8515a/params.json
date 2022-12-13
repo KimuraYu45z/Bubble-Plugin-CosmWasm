@@ -1,0 +1,22 @@
+{
+    "caption": "create_msg_update_admin",
+    "doc": "Create msg: cosmwasm.wasm.v1.MsgUpdateAdmin",
+    "fields": {
+        "ABV": {
+            "caption": "new_admin",
+            "doc": "New Admin's address",
+            "editor": "DynamicValue",
+            "name": "new_admin",
+            "rank": 0,
+            "value": "text"
+        },
+        "ABW": {
+            "caption": "contract",
+            "doc": "List Contract by Code response (string)",
+            "editor": "DynamicValue",
+            "name": "contract",
+            "rank": 1,
+            "value": "text"
+        }
+    }
+}

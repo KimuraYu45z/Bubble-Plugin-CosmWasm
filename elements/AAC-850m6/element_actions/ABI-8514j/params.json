@@ -1,0 +1,30 @@
+{
+    "caption": "create_msg_migrate_contract",
+    "doc": "Create msg: cosmwasm.wasm.v1.MsgExecuteContract",
+    "fields": {
+        "ABJ": {
+            "caption": "contract",
+            "doc": "List Contract by Code response (string)",
+            "editor": "DynamicValue",
+            "name": "contract",
+            "rank": 0,
+            "value": "text"
+        },
+        "ABK": {
+            "caption": "code_id",
+            "doc": "Code ID of the contract",
+            "editor": "DynamicValue",
+            "name": "code_id",
+            "rank": 1,
+            "value": "text"
+        },
+        "ABL": {
+            "caption": "migrate_msg_str",
+            "doc": "Migrate msg string (Use JSON.stringify())",
+            "editor": "DynamicValue",
+            "name": "migrate_msg_str",
+            "rank": 2,
+            "value": "text"
+        }
+    }
+}

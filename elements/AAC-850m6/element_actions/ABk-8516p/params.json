@@ -1,0 +1,38 @@
+{
+    "caption": "create_msg_ibc_send",
+    "doc": "Create msg: cosmwasm.wasm.v1.MsgIBCSend",
+    "fields": {
+        "ABm": {
+            "caption": "channel",
+            "doc": "Channel string",
+            "editor": "DynamicValue",
+            "name": "channel",
+            "rank": 0,
+            "value": "text"
+        },
+        "ABn": {
+            "caption": "timeout_height",
+            "doc": "Timeout Height string",
+            "editor": "DynamicValue",
+            "name": "timeout_height",
+            "rank": 1,
+            "value": "text"
+        },
+        "ABo": {
+            "caption": "timeout_timestamp",
+            "doc": "Timeout Date (Date Time Picker)",
+            "editor": "DynamicValue",
+            "name": "timeout_timestamp",
+            "rank": 2,
+            "value": "date"
+        },
+        "ABp": {
+            "caption": "data_str",
+            "doc": "Data string (Use JSON.stringify())",
+            "editor": "DynamicValue",
+            "name": "data_str",
+            "rank": 3,
+            "value": "text"
+        }
+    }
+}
